@@ -1,0 +1,30 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100%;
+    width:100%;
+    background-color: black;
+}
+.container {
+    background-color: black;
+    display: grid;
+    grid-template-columns: repeat(8, 60px); 
+    gap: 0;
+}
+
+.cell, .cell_ {
+    width: 60px;
+    height: 60px;
+}
+
+.cell {
+    background-color:#966F33
+}
+
+.cell_ {
+    background-color:white;
+}
+.row{
+    background-color: blueviolet;
+}
